@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.card{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    left:50%;
+    top: 50%;
+    transform:translateX(-50%);
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+.image{
+    height: 400px;
+}
+.image img {
+    height: inherit;
+}
+hr{
+    display: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+li{
+    display: inline;
+    padding: 25px;
+    font-size: 14px;
+}
+a{
+    color: rgb(97, 93, 93);
+    font-weight: 600;
+}
+.span1{
+    color: red;
+    font-size: 20px;
+}
+small{
+    color: rgb(119, 99, 241);
+    font-weight: 600;
+    font-size: 8px;
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 8px;
+}
+.text-card{
+   padding-left: 2rem;
+   margin-top: 3rem;
+}
+
+p{
+    font-size: 18px;
+    padding:13px 0;
+}
+h2{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 4.8rem;
+    margin-left: -6px;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgb(112, 91, 241);
+    padding: 15px;
+    /* border-radius: 20%; */
+}
+.box{
+    width: 10px;
+    height: 8px;
+    background-color: red;
+    margin-right: 12px;
+}
+a:hover{
+    border-bottom: 2px solid rgb(126, 108, 241) ;
+    text-decoration: none;
+    color: rgb(112, 91, 241);
+    padding-bottom: 4px;
+}
+.logo{
+    font-size: 26px;
+    font-weight: 900;
+}
+footer{
+   padding-left: 1rem;
+   font-size: 8px;
+   margin-top:2rem;
+   padding-bottom: 2rem;
+}
+h6{
+    font-weight: lighter;
+}
+.last-text{
+    color:rgb(212, 208, 214);
+}
+.Discover{
+    color: rgb(212, 208, 214);
+    align-items: center;
+}
+.span2{
+    border: 1px solid black;
+    border-radius: 50px;
+    color: rgb(62, 36, 206);
+    padding: 1px;
+    font-size: 5px;
+}
+.span3{
+    color: rgb(229, 225, 232);
+    padding-right: 7px;
+}
+.arrows{
+    font-size: 12px;
+    font-weight: lighter;
+}
+ul{
+    padding-left: 0;
+}
+.p-div {
+    padding: 0;
+}
